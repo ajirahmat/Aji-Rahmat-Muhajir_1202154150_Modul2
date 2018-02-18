@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp">
+    <!--- image -->
+    <ImageView
+        android:id="@+id/menuImages"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="1dp"
+        android:contentDescription="icon"
+        android:src="@drawable/one_piece_curry" />
+
+    <!-- title -->
+    <TextView
+        android:id="@+id/item_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/menuImages"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/menuImages"
+        android:layout_toRightOf="@+id/menuImages"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="25sp" />
+
+    <!-- price -->
+    <TextView
+        android:id="@+id/item_price"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/item_title"
+        android:layout_toEndOf="@+id/menuImages"
+        android:layout_toRightOf="@+id/menuImages"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textSize="20sp" />
+
+</RelativeLayout>

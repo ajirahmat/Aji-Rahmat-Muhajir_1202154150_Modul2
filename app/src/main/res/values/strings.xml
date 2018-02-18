@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Aji Rahmat Muhajir_1202154150_Modul2</string>
+
+    <string-array name="labels_array">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+    </string-array>
+
+    <string-array name="menu_titles">
+        <item>Cocoyasi mura dish</item>
+        <item>Dai sensou buns beef</item>
+        <item>East blue salad</item>
+        <item>One piece curry</item>
+        <item>Tomodachi wo taskerutame</item>
+        <item>Yasashii usotsuki usopp pasta</item>
+    </string-array>
+
+    <string-array name="menu_info">
+        <item>The Day of Freedom from Control: The Happy Celebration at the End  </item>
+        <item>The One Spear that Comes from the Gut: Courage that Sticks to its Convictions  </item>
+        <item>Receive the Blessing of East Blue </item>
+        <item>In the Name of Absolute Justice": The Birth of a Man Becoming a Marine Officer </item>
+        <item>In Order to Save My Friends: The Vow with Shanks</item>
+        <item>"Honorable Liar": Proud Warrior's Departure </item>
+    </string-array>
+
+    <string-array name="menu_price">
+        <item>1000</item>
+        <item>2000</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>1200</item>
+        <item>1300</item>
+    </string-array>
+
+    <array name="menu_images">
+        <item>@drawable/cocoyasi_mura_dish</item>
+        <item>@drawable/dai_sensou_buns_beef</item>
+        <item>@drawable/east_blue_salad</item>
+        <item>@drawable/one_piece_curry</item>
+        <item>@drawable/tomodachi_wo_taskerutame</item>
+        <item>@drawable/yasashii_usotsuki_usopp_pasta</item>
+    </array>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+
+</resources>

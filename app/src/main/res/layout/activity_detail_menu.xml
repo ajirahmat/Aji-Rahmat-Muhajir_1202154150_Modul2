@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aji.userpc.ajirahmatmuhajir_1202154150_modul2.DetailMenu">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--- image -->
+        <ImageView
+            android:id="@+id/menuImages_detail"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_alignLeft="@+id/item_price_detail"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/item_price_detail"
+            android:contentDescription="icon"
+            android:src="@drawable/one_piece_curry" />
+
+        <!-- title -->
+        <TextView
+            android:id="@+id/item_title_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/menuImages_detail"
+            android:layout_marginTop="11dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="25sp" />
+
+        <!-- price -->
+        <TextView
+            android:id="@+id/item_price_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_title_detail"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/info_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_price_detail"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textSize="20sp"
+            android:textStyle="italic"/>
+
+    </RelativeLayout>
+
+</ScrollView>
